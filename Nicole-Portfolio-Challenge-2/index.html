@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Fallis | Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-theme="business">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-100">
+              <li tabindex="0">
+                <a class="justify-between">
+                  Projects
+                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+                </a>
+                <ul class="p-2 bg-base-100">
+                    <li><a href="#bookend">BookenD</a></li>
+                    <li><a href="#theTechBlog">The Tech Blog</a></li>
+                    <li><a href="#eCommBackEnd">E-commerce Back-end</a></li>
+                    <li><a href="#teamProfGen">Team Profile Generator</a></li>
+                    <li><a href="#empManSys">Employee Mgmt. System</a></li>
+                </ul>
+              </li>
+              <li><a href="./assets/docs/andrewmason-webdev-resume.pdf" target="#">Resume</a></li>
+              <li><a href="https://www.linkedin.com/in/andrewmason0529" target="#">LinkedIn</a></li>
+              <li><a href="https://github.com/atmason90" target="#">GitHub</a></li>
+              <li><a href="#contactInfo">Contact Info</a></li>
+            </ul>
+          </div>
+          <p class="normal-case px-4 text-2xl">Andrew Mason</p>
+          <p class="text-accent normal-case px-4 text-2xl">Web Developer</p>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+          <ul class="menu menu-horizontal p-0">
+            <li tabindex="0" class="dropdown dropdown-hover">
+              <a>
+                Projects
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+              </a>
+              <ul class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-100 z-10">
+                <li><a href="#bookend">BookenD</a></li>
+                <li><a href="#theTechBlog">The Tech Blog</a></li>
+                <li><a href="#eCommBackEnd">E-commerce Back-end</a></li>
+                <li><a href="#teamProfGen">Team Profile Generator</a></li>
+                <li><a href="#empManSys">Employee Mgmt. System</a></li>
+              </ul>
+            </li>
+            <li><a href="./assets/docs/andrewmason-webdev-resume.pdf" target="#">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/andrewmason0529" target="#">LinkedIn</a></li>
+            <li><a href="https://github.com/nfallis96" target="#">GitHub</a></li>
+            <li><a href="#contactInfo">Contact Info</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <div id="aboutMe" class="card w-full mt-2 bg-neutral text-neutral-content">
+        <div class="card-body items-center text-center">
+            <h2 class="card-title font-bold text-2xl">About Me</h2>
+            <img class="scale-75 mask mask-squircle -mt-6" src="https://media-exp1.licdn.com/dms/image/C5603AQH0J5Cw8dVdiQ/profile-displayphoto-shrink_400_400/0/1590033296984?e=1658361600&v=beta&t=WzRO2p88XWmL8crX0kfHMKe4f_qO843pgoKJ8N232Ks" alt="Andrew Mason Headshot">
+            <p class="-mt-6 text-lg">Web Developer with a background in Management Consulting. I am looking to leverage my development skills to provide web applications that support business initiatives. Earned a certificate in web development from the University of California, Berkeley. Skilled in JavaScript, HTML, CSS, MySQL, and full-stack development.</p>
+            <p class="text-lg">My management consulting experience has made me highly proficient working with teams to create dynamic and lasting business solutions. Recognized as a proactive, resourceful, and persistent problem-solver. Excellent communicator with effective relationship-building skills. I bring a strong technical acumen, along with a tenacity and desire to learn, grow and achieve in any endeavor, making me an asset to any organization or community I am a member of.</p>
+        </div>
+    </div>
+    
+    <div class="card w-full mt-2 bg-secondary text-neutral-content">
+        <h2 class="card-title font-bold text-neutral text-2xl justify-center m-4 mt-6">Projects</h2>
+        <div class="flex flex-wrap justify-center">
+            <div id="bookend" class="card w-96 m-2 bg-primary text-neutral-content shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./assets/images/bookend-logo.png" alt="bookend logo" class="rounded-xl"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">BookenD</h2>
+                  <p class="mb-4">Bookend is a full stack application that allows readers to create an account and join a community of others in finding new books to read, viewing public book clubs, or even creating their own clubs and inviting their friends and family.</p>
+                  <div class="card-actions">
+                    <a href="https://github.com/atmason90/bookend" target="#" role="button" class="btn text-accent btn-neutral">GitHub Repo</a>
+                    <a href="https://glacial-plateau-74113.herokuapp.com/" target="#" role="button" class="btn text-accent btn-neutral">Deployed App</a>
+                  </div>
+                </div>
+            </div>
+            <div id="theTechBlog" class="card w-96 m-2 bg-primary text-neutral-content shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./assets/images/the-tech-blog.jpeg" alt="tech-blog-app logo" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">The Tech Blog</h2>
+                  <p class="mb-4">The Tech Blog is a full stack application that allows for creation of user accounts, login/logout functionality, viewing and commenting on blog posts, and a user dashboard where authored posts can be edited or deleted.</p>
+                  <div class="card-actions">
+                    <a href="https://github.com/atmason90/tech-blog-app" target="#" role="button" class="btn text-accent btn-neutral">GitHub Repo</a>
+                    <a href="https://the-tech-blog-am.herokuapp.com/" target="#" role="button" class="btn text-accent btn-neutral">Deployed App</a>
+                  </div>
+                </div>
+            </div>
+            <div id="eCommBackEnd" class="card w-96 m-2 bg-primary text-neutral-content shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./assets/images/ecomm-logo.png" alt="shopping cart logo" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">E-commerce Back-end</h2>
+                  <p class="mb-4">The purpose of this project was to create the back-end of an e-commerce platform. This application was built by configuring an Express.js API to use sequelize to interact with a MySql database.</p>
+                  <div class="card-actions">
+                    <a href="https://github.com/atmason90/e-comm-back-end" target="#" role="button" class="btn text-accent btn-neutral">GitHub Repo</a>
+                    <a href="https://drive.google.com/file/d/1KBD6tlB82vbEWURTLGDzOHshITIDAft2/view?usp=sharing" target="#" role="button" class="btn text-accent btn-neutral">Demo Video</a>
+                  </div>
+                </div>
+            </div>
+            <div id="teamProfGen" class="card w-96 m-2 bg-primary text-neutral-content shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./assets/images/team-profile-generator-logo.png" alt="team profile logo" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Team Profile Generator</h2>
+                  <p class="mb-4">The purposed of this project was to create a command line application that allows a user to generate a team profile by answering a set of prompts. This application uses node.js and the npm inquirer package as it's core technologies. Jest was used for unit testing.</p>
+                  <div class="card-actions">
+                    <a href="https://github.com/nfallis96/team-profile-generator" target="#" role="button" class="btn text-accent btn-neutral">GitHub Repo</a>
+                    <a href="https://user-images.githubusercontent.com/99947655/165204617-ddd7d97b-8db4-4af3-b01e-8de7900dcdaa.mp4" target="#" role="button" class="btn text-accent btn-neutral">Demo Video</a>
+                  </div>
+                </div>
+            </div>
+            <div id="empManSys" class="card w-96 m-2 bg-primary text-neutral-content shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./assets/images/EMS-logo.png" alt="EMS logo" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Employee Management System</h2>
+                  <p class="mb-4">The purpose of this project was to create a content management system to give the user the ability to manage employees at a company. This command line application uses node.js, inquirer, and mysql as it's core technologies.</p>
+                  <div class="card-actions">
+                    <a href="https://github.com/atmason90/employee-management-system" target="#" role="button" class="btn text-accent btn-neutral">GitHub Repo</a>
+                    <a href="https://user-images.githubusercontent.com/99947655/166392001-e153fc6e-ddc9-4334-8ab9-fb791541c65e.mp4" target="#" role="button" class="btn text-accent btn-neutral">Demo Video</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactInfo" class="card w-full mt-2 bg-neutral text-neutral-content">
+        <div class="card-body items-center text-center">
+            <h2 class=" font-bold card-title text-2xl">Contact Information</h2>
+            <ul>
+                <li>Phone: <a class="text-accent underline" href="tel:5618172142">561-817-1242</a></li>
+                <br>
+                <li>Email: <a class="text-accent underline" href="nfallis2019@fau.edu">nfallis2019@fau.edu</a></li>
+                <br>
+                <li>GitHub Profile: <a class="text-accent underline" href="https://github.com/nfallis96" target="#">nfallis96</a></li>
+                <br>
+                <li>LinkedIn Profile: <a class="text-accent underline" href="linkedin link" target="#">Nicole Fallis</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
