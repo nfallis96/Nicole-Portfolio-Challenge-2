@@ -8,7 +8,6 @@ Making a portfolio - Wire Frame
 
 The wireframe below displays my initial thoughts on the design of this page
 
-https://github.com/atmason90/personal-portfolio/blob/main/assets/wireframe.jpg
 
 
 
