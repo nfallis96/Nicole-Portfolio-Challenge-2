@@ -6,6 +6,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: rgb(85, 123, 164);
+}
+
 header {
     background-color: rgb(79, 139, 170);
     color: rgb(184, 182, 169);
@@ -90,7 +94,7 @@ p {
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: 20px;
-    background-color: rgb(243, 244, 244);
+    background-color: rgb(85, 123, 164);
 }
 
 .primary-project {
